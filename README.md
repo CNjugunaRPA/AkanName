@@ -3,17 +3,14 @@ This web application allows you to input your birthday and calculates the day of
 #### By **CNjuguna}**
 ## Description
 Open the below link on any browser
-https://cnjugunarpa.github.io/AkanName/
 My application's purpose is to showcase the landing page for my programming portfolio, on beginning my journey toward becoming a developer. Other users beginning their 
 programming journeys can find my application useful in launching their journeys as well. 
 Open the below link on any browser 
-https://cnjugunarpa.github.io/AkanName/
 ## Setup/Installation Requirements
 * Install any Web browser
 * Ensure you have internet connection
 * Open link on the browser
 Open the below link on any browser 
-https://cnjugunarpa.github.io/AkanName/
 ## Known Bugs
 No Known bugs
 ## Technologies Used
