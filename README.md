@@ -1,16 +1,18 @@
-# AkanName
-This web application allows you to input your birthday and calculates the day of the week you were born, then depending on your gender outputs your Ghanaian Akan Name 03/01/2022.
-#### By **CNjuguna}**
+# GhanaianAkanName
+#### This web application allows you to input your birthday and calculates the day of the week you were born, then depending on your gender outputs your Ghanaian Akan Name., 04/01/2022
+#### By **Christine Njuguna**
 ## Description
 Open the below link on any browser
-My application's purpose is to showcase the landing page for my programming portfolio, on beginning my journey toward becoming a developer. Other users beginning their 
-programming journeys can find my application useful in launching their journeys as well. 
-Open the below link on any browser 
+https://cnjugunarpa.github.io/AkanName/
+My application's purpose is to showcase the "Akan" names which are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'dayname' which corresponds to the day in the week they were born.
 ## Setup/Installation Requirements
+Open the below link on any browser
+https://cnjugunarpa.github.io/AkanName/
 * Install any Web browser
 * Ensure you have internet connection
 * Open link on the browser
-Open the below link on any browser 
+Open the below link on any browser
+https://cnjugunarpa.github.io/AkanName/
 ## Known Bugs
 No Known bugs
 ## Technologies Used
