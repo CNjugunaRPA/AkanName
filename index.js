@@ -1,4 +1,4 @@
-//alert("Your Akan name is, " + akanName + ".");
+alert("Your Akan name is, " + akanName + ".");
 
 
 var akanName = function akanName (YY, MM, DD, g){
