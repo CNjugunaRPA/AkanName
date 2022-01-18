@@ -5,13 +5,19 @@ var akanName = function akanName (YY, MM, DD, g){
     var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var maleAkanName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleAkanName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    
+    var YY = "Year"();
+             var MM = "Month"();
+             var DD = "Date"();
+             var g = "Gender"();
+             var d = newDate(YY, MM, DD);
+             var g = $("input:radio[name=Gender]:checked").val();
+             var result = akanName[YY, MM, DD, g];
     
     if (g === "Female") {
-            return d && femaleAkanName [d.getDay()];
+            return alert(d && femaleAkanName [d.getDay()]);
     }
     else {
-        return d && maleAkanName[d.getDay()];
+        return alert (d && maleAkanName[d.getDay()]);
     }
     }
     
@@ -40,7 +46,9 @@ var akanName = function akanName (YY, MM, DD, g){
     document.getElementById("AkanNameGeneratorForm").reset();
     });
     
-
+    
+    
+    
     // Backend
     // Create an Array for the Male & Female names, as well as the days of the week
     YY = year; MM = month; DD = day; g = Gender; d = newDate
@@ -64,3 +72,4 @@ var akanName = function akanName (YY, MM, DD, g){
     }    
     else 
         alert(d && maleAkanName[d.getDay()]);
+    
