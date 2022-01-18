@@ -40,9 +40,7 @@ var akanName = function akanName (YY, MM, DD, g){
     document.getElementById("AkanNameGeneratorForm").reset();
     });
     
-    
-    
-    
+
     // Backend
     // Create an Array for the Male & Female names, as well as the days of the week
     YY = year; MM = month; DD = day; g = Gender; d = newDate
@@ -57,7 +55,7 @@ var akanName = function akanName (YY, MM, DD, g){
     var genderNew = gender.toLowerCase();//to convert input gender to lower case
     var daysOfTheWeek = newDate
 
-    var akanName = function (d, m, y, g) {
+    var akanName = function (YY, MM, DD, g) {
         [maleAkanName]; [femaleAkanName];
     }
 
@@ -66,4 +64,3 @@ var akanName = function akanName (YY, MM, DD, g){
     }    
     else 
         alert(d && maleAkanName[d.getDay()]);
-    
